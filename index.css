@@ -1,11 +1,16 @@
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 0;
-    background-color: #F4F4F4;
+    min-width: 320px;
+    max-width: 550px;
     font-family: sans-serif;
+}
+
+.container {
+    background-color: #F4F4F4;
+}
+
+#result-container {
+    padding: 10px;
 }
 
 #hero {
@@ -14,6 +19,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #6943FF;
+    background-size: cover;
     color: #ffffff;
 }
 
@@ -44,7 +50,7 @@ button {
     border-radius: 5px;
     font-size: 16px;
     font-weight: 500;
-    margin: 10px;
+    margin: 20px;
    /* box-shadow: 0 1px 2px 0 #000000 0.05; */
 }
 
@@ -61,6 +67,12 @@ p {
 }
 
 .results {
+margin: 20px 10px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
 background-color: #ffffff;
-margin: 10px;
+background-size: cover;
+
 }
