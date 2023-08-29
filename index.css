@@ -28,6 +28,7 @@ input {
     background-color: #6943FF;
     border: 2px solid #B295FF;
     border-radius: 5px;
+    align-items: center;
     padding: 10px;
     color: #ffffff;
     font-size: 58px;
@@ -61,4 +62,5 @@ p {
 
 .results {
 background-color: #ffffff;
+margin: 10px;
 }
